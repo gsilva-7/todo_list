@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <h1><i class="fa-solid fa-list-check"></i>ToDo List</h1>
+        </header>
+
+        <div class="input-group">
+            <h2>Insira a tarefa</h2>
+            <input type="text" id="task-input" placeholder="Digite a tarefa aqui...">
+            <button id="add-btn"><i class="fa-solid fa-plus"></i>Adicionar</button>
+        </div>
+
+        <div class="task-stats">
+            <span id="stat-pending">Pendentes: 0</span>
+            <span id="stat-completed">Concluídas:</span>
+        </div>
+
+        <ul id="task-list" class="task-list">
+
+        </ul>
+    </div>
+</body>
+</html>
